@@ -1,13 +1,13 @@
 <template>
   <a-layout id="components-layout-demo-top" class="layout">
-    <a-layout-header :style="{paddingTop: '4px'}">
+    <a-layout-header>
       <div :style="{marginLeft: '15px', float: 'left'}">
         <a href="/" :style="{color: '#fff', fontWeight: 500}">KREATIVE</a>
       </div>
       <a-menu
         theme="dark"
         mode="horizontal"
-        :style="{ lineHeight: '58px', float: 'right', paddingTop: '2px' }"
+        :style="{ lineHeight: '64px', float: 'right' }"
       >
         <a-menu-item key="1">
           Contact

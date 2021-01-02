@@ -8,7 +8,7 @@
 			</a-button>
     	</div>
 		<div :style="{margin: '50px 0'}">
-			<a-carousel effect="fade" autoplay :style="{width: '80%', margin: 'auto', 
+			<a-carousel autoplay :style="{width: '80%', margin: 'auto', 
 				border: '3px solid black', borderRadius: '10px', padding: '10px'}">
 				<div v-for="item in 4" >
 					<img src="https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" :style="{ width: '100%' }" />
@@ -36,8 +36,8 @@
 				<a-card-grid>Redeem</a-card-grid>
 			</a-card>
 			<div :style="{width: '40%', margin: 'auto'}">
-				<h3 :style="{textAlign: 'center'}">Want to partner with us?</h3>
-				<h3 :style="{textAlign: 'center'}">Shoot us a message at: billy@joinkreative.club</h3>
+				<h4 :style="{textAlign: 'center'}">Want to partner with us?</h4>
+				<h4 :style="{textAlign: 'center'}">Shoot us a message at: billy@joinkreative.club</h4>
 			</div>
 		</div>
 	</div>
@@ -52,5 +52,7 @@ export default {}
 	width:25%;
 	text-align:center;
 	box-shadow: none;
+	font-size: 26px;
+	font-weight: 500;
 }
 </style>
