@@ -9,7 +9,7 @@
       <a-carousel
         autoplay
         :style="{
-          width: '80%',
+          width: '70%',
           margin: 'auto',
           border: '3px solid black',
           borderRadius: '10px',
@@ -18,7 +18,7 @@
       >
         <div>
           <img
-            src="https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            src="@/assets/image1.png"
             :style="{ width: '100%' }"
           />
         </div>
