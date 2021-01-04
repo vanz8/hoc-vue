@@ -13,7 +13,7 @@
           Contact
         </a-menu-item>
         <a-menu-item key="2">
-          Login
+          <a >Login {{ githubAuthorizeUrl }}</a>
         </a-menu-item>
       </a-menu>
     </a-layout-header>
@@ -31,7 +31,9 @@
 </template>
 
 <script>
+import {githubAuthorizeUrl} from '@/config'
 export default {
   name: 'App'
 }
+console.log(githubAuthorizeUrl)
 </script>
